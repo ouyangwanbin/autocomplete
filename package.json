@@ -1,0 +1,23 @@
+{
+  "name": "autocomplete",
+  "version": "0.0.0",
+  "private": true,
+  "license": "see LICENSE file",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "express": "^4.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "autocomplete"
+  ],
+  "author": "Wanbin Ouyang",
+  "homepage": "https://github.com/ouyangwanbin"
+}

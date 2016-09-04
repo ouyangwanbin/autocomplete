@@ -1,0 +1,116 @@
+body{
+    background: #f2f2f2;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+.logo {
+    width: 100%;
+    margin: 8 auto;
+    text-align: center;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo svg {
+    width: 40%;
+    height: 200px;
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    background: #fff;
+    margin: 40px auto;
+    height: 700px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.container span{
+  display: inline-block;
+  margin-top:10px;
+}
+
+form {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 70%;
+}
+
+form button {
+    background: none;
+    border: none;
+    opacity: .54;
+    outline: none;
+    padding: 11px 1%;
+    line-height: 0;
+    cursor: pointer;
+}
+
+form button:hover{
+    opacity: 1;
+}
+
+
+.search_btn {
+    float: left;
+}
+
+.search_input {
+    height: 24px;
+    padding: 11px;
+}
+
+form input {
+    float: left;
+    border: none;
+    font-size: 16px;
+    width: 70%;
+    overflow: hidden;
+    height: 24px;
+    outline: none;
+    margin-left: 1%;
+    background: transparent;
+}
+
+.search_result {
+  border: 1px solid #ccc;
+}
+
+.search_result p{
+  margin: 0;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+  padding: 2px 1%;
+  overflow: hidden;
+}
+
+.search_result p:hover{
+  background-color: #eef;
+}
+
+.search_detail {
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+
+.search_detail td{
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.error{
+  color:red;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
