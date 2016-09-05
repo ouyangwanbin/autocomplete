@@ -34,7 +34,7 @@ app.get('/complete', function(req, res) {
                     return;
                 }
                 //do not add duplicate result
-                if (item.name && item.name.indexOf(term) > -1 && result.indexOf( item.name ) < 0) {
+                if (item.name && item.name.toLowerCase().indexOf(term.toLowerCase()) > -1 && result.indexOf( item.name ) < 0) {
                     result.push(item.name);
                 }
             });

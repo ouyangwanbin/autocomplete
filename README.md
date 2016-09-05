@@ -12,6 +12,9 @@
 
 
 ##note
-For windows environment, karma and grunt need to be installed globally and package.json need to be modified accordingly in order to build scripts&css and unit test.
+
+grunt need to be installed globally for build scripts and css.
+
+For windows environment, karma need to be installed globally and package.json need to be modified accordingly for unit test.
 
 
