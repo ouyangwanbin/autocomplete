@@ -11,3 +11,7 @@
 2.Open browser with url `http://localhost:3000`.
 
 
+##note
+For windows environment, karma and grunt need to be installed globally and package.json need to be modified accordingly in order to build scripts&css and unit test.
+
+
