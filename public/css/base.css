@@ -81,6 +81,10 @@ form input {
 
 .search_result {
   border: 1px solid #ccc;
+  position: absolute;
+  background-color: #fff;
+  z-index: 9;
+  width: 56%;
 }
 
 .search_result p{
