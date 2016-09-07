@@ -28,7 +28,7 @@ app.controller("formController", ["$scope", "$http", "$interval", function($scop
         }
     }
 
-    $scope.move = function() {
+    $scope.move = function(event) {
         if (stop) {
             return;
         }
@@ -36,7 +36,7 @@ app.controller("formController", ["$scope", "$http", "$interval", function($scop
         stop = $interval($scope.moveHelper.bind($scope,event.keyCode), 200);
     }
 
-    $scope.complete = function() {
+    $scope.complete = function(event) {
         $interval.cancel(stop);
         stop = undefined;
         if (event.keyCode === 13) {

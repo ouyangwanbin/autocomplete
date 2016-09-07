@@ -59,7 +59,7 @@
                 </svg>
             </button>
             <div class="search_input">
-                <input placeholder="Search" value="" type="text" ng-keyup="complete()" ng-keydown="move()" ng-model="product" ng-focus="complete()"/>
+                <input placeholder="Search" value="" type="text" ng-keyup="complete($event)" ng-keydown="move($event)" ng-model="product" ng-focus="complete($event)"/>
             </div>
             <div id="result" class="search_result" ng-show="resultList.length > 0" ng-cloak>
                 <p ng-repeat="item in resultList" ng-click="fillForm(item)" ng-style="{'background-color':($index === currentCursor)?'#eee':''}">{{item}}</p>
